@@ -1,0 +1,45 @@
+Map { background-color:#000; }
+#countries {
+line-color:#555;
+line-join:round;
+line-width:0.5;
+}
+
+@blue : #0171C5;
+@magenta: #ff0094;
+@green: #0F0;
+@red: #DA6068;
+@morado:#9900FF;
+@yellow: #FF0;
+@grey: #2d2c2c;
+@aqua:#00FFFF;
+@fuxia:#FF00FF;
+
+#osm{
+line-color:rgba(255,255,0,1);
+line-width:2;
+line-gamma: 0.5;
+line-gamma-method:power;
+}
+
+#osm[user='Rub21']{
+line-color:@blue;
+}
+#osm[user='ediyes']{
+line-color:@yellow;
+}
+#osm[user='Luis36995']{
+line-color:@green;
+}
+#osm[user='RichRico']{
+line-color:@red;
+}
+#osm[user='dannykath']{
+line-color:@morado;
+}
+#osm[user='Aaron Lidman']{
+line-color:@aqua;
+}
+#osm[user='Tom Lee']{
+line-color:@fuxia;
+}
