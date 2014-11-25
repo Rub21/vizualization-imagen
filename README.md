@@ -16,10 +16,23 @@ Steps:
 
 ![screenshot from 2014-11-25 10 19 53](https://cloud.githubusercontent.com/assets/1152236/5185328/a2dd6b1e-748c-11e4-9ae9-efb4625ab0ad.png)
 
-Save data as file.osm on same directory where the files [converts-way.py]() are . 
+Save data as file.osm on same directory where the files [converts-way.py](https://github.com/Rub21/vizualization-imagen/blob/master/converts-way.py) are . 
 
 # 2. Process Data
 
 Run the nest line: 
 
-python 
+`python converts-way.py file.osm file.geojson`
+
+# 3. Make imgen on Tilemill
+
+- Make a new project and copy and paste the code on Tilemill
+
+https://github.com/Rub21/vizualization-imagen/blob/master/styles.css
+
+![screenshot from 2014-11-25 10 35 18](https://cloud.githubusercontent.com/assets/1152236/5185647/eb198a82-748e-11e4-8e7f-da2b6ed4712d.png)
+
+
+- Export as imagen and edited with an image editor. like:
+
+![visualizacion_c7f118](https://cloud.githubusercontent.com/assets/5991158/4525793/41fc1828-4d58-11e4-818d-dd790e83914e.png)

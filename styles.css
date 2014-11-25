@@ -1,8 +1,8 @@
 Map { background-color:#000; }
 #countries {
-line-color:#555;
-line-join:round;
-line-width:0.5;
+	line-color:#555;
+	line-join:round;
+	line-width:0.5;
 }
 
 @blue : #0171C5;
@@ -16,30 +16,26 @@ line-width:0.5;
 @fuxia:#FF00FF;
 
 #osm{
-line-color:rgba(255,255,0,1);
-line-width:2;
-line-gamma: 0.5;
-line-gamma-method:power;
+	line-color:@grey;
 }
-
 #osm[user='Rub21']{
-line-color:@blue;
+	line-color:@blue;
 }
 #osm[user='ediyes']{
-line-color:@yellow;
+	line-color:@yellow;
 }
 #osm[user='Luis36995']{
-line-color:@green;
+	line-color:@green;
 }
 #osm[user='RichRico']{
-line-color:@red;
+	line-color:@red;
 }
 #osm[user='dannykath']{
-line-color:@morado;
+	line-color:@morado;
 }
 #osm[user='Aaron Lidman']{
-line-color:@aqua;
+	line-color:@aqua;
 }
 #osm[user='Tom Lee']{
-line-color:@fuxia;
+	line-color:@fuxia;
 }
