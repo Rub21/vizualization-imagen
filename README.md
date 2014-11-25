@@ -35,4 +35,5 @@ https://github.com/Rub21/vizualization-imagen/blob/master/styles.css
 
 - Export as imagen and edited with an image editor. like:
 
-![visualizacion_c7f118](https://cloud.githubusercontent.com/assets/5991158/4525793/41fc1828-4d58-11e4-818d-dd790e83914e.png)
+![screenshot from 2014-11-25 11 03 29](https://cloud.githubusercontent.com/assets/1152236/5186183/b6822596-7492-11e4-8147-9a34bc5b5f68.png)
+

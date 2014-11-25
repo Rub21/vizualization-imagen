@@ -4,38 +4,61 @@ Map { background-color:#000; }
 	line-join:round;
 	line-width:0.5;
 }
-
+@grey: #2d2c2c;
 @blue : #0171C5;
 @magenta: #ff0094;
 @green: #0F0;
 @red: #DA6068;
 @morado:#9900FF;
 @yellow: #FF0;
-@grey: #2d2c2c;
 @aqua:#00FFFF;
 @fuxia:#FF00FF;
+
 
 #osm{
 	line-color:@grey;
 }
 #osm[user='Rub21']{
-	line-color:@blue;
+    [version='1']{
+      line-color:@blue;
+    }
+	line-color:@blue*0.3;
 }
 #osm[user='ediyes']{
-	line-color:@yellow;
+    [version='1']{
+      line-color:@yellow;
+    }
+	line-color:@yellow*0.3;
 }
+
 #osm[user='Luis36995']{
 	line-color:@green;
+      [version='1']{
+      line-color:@yellow;
+    }
+	line-color:@yellow*0.3;
 }
 #osm[user='RichRico']{
-	line-color:@red;
+   [version='1']{
+      line-color:@red;
+    }
+	line-color:@red*0.3;
 }
 #osm[user='dannykath']{
-	line-color:@morado;
+   [version='1']{
+      line-color:@morado;
+    }
+	line-color:@morado*0.3;
 }
 #osm[user='Aaron Lidman']{
-	line-color:@aqua;
+    [version='1']{
+      line-color:@aqua;
+    }
+	line-color:@aqua*0.3;
 }
 #osm[user='Tom Lee']{
-	line-color:@fuxia;
+    [version='1']{
+      line-color:@fuxia;
+    }
+	line-color:@fuxia*0.3;
 }
