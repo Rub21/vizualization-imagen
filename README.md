@@ -42,7 +42,9 @@ open the terminal and go to **vizualization-imagen** directory and execute:
 
  At last you are going to have onw file called ayacucho.geojson **vizualization-imagen** directory
 
-# 4. Project on Tilemill
+# 4. Create Imagen
+
+## Create imagen using Tilemill
 
 Create a new project on tilemill and paste the next code on Tilemill:
 
@@ -87,10 +89,12 @@ The size of imagen will be, **width = 1200px**
 
 ![screenshot from 2015-01-05 07 34 21](https://cloud.githubusercontent.com/assets/1152236/5613145/96500c26-94ad-11e4-9147-5ff5a6cf7ac7.png)
 
-The file is save in: `/path/to/MapBox/export/`
+The file(ayacucho.jpeg) was saved in: `/path/to/MapBox/export/`
 
 
-# 4. Editing imagen
+## Create imagen using Mapbox Studio
+
+# 5. Editing imagen
 
 Open your imagen(ayacucho.jpeg) with any Editor of imagen, inthis case I going to use [GIMP](http://www.gimp.org/)
 
