@@ -95,8 +95,12 @@ Open your imagen(ayacucho.jpeg) with any Editor of imagen, inthis case I going t
 
 ![ediyes](https://cloud.githubusercontent.com/assets/1152236/5613329/b6935c88-94b0-11e4-8cb5-abea20cee446.jpeg)
 
-- **Title size(Ayacucho, Perú): 70pt**
-- **Date size (September 01st to September 15th, 2014): 25pt**
-- **User size (ediyes): 25pt**
-- **Version = 1 size (Version = 1): 20pt**
-- **Version > 1 size (Version > 1): 20pt**
+- Title size(**Ayacucho, Perú**): 70pt
+- Date size (**September 01st to September 15th, 2014**): 25pt
+- User size (**ediyes**): 25pt**
+- Version = 1 size (**Version = 1**): 20pt
+- Version > 1 size (**Version > 1**): 20pt
+
+If you worked just one day in a your visualization should be look like this:
+
+![](https://cloud.githubusercontent.com/assets/1152236/3346517/55119694-f8c7-11e3-8d34-e777e9ef8691.jpeg)
