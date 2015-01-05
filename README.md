@@ -21,7 +21,7 @@ http://rub21.github.io/download-osm-data/#13.00/-13.1660/-74.2153
 
 ![Focus in Ayacucho](https://cloud.githubusercontent.com/assets/1152236/5608852/3521968a-945e-11e4-932e-19ca396adef6.png)
 
-**Setting the user, time and types of data**
+**Setting user, time and types of data**
 
 ![Setting the user, time and types of data](https://cloud.githubusercontent.com/assets/1152236/5608908/81cd9bae-945f-11e4-848a-bae1161f4000.png)
 
@@ -31,7 +31,9 @@ Save data as ayacucho.osm on directory **vizualization-imagen**
 
 # 3. Process Data
 
-If you use Windows as SO. you have to configure context environment for python. on Linux it come for default.
+If you use Windows as SO. you have to configure context environment for python.
+on Linux it come for default.
+
 open the terminal and go to **vizualization-imagen** directory and execute:
 
 `$ cd vizualization-imagen`
@@ -42,7 +44,7 @@ open the terminal and go to **vizualization-imagen** directory and execute:
 
 # 4. Project on Tilemill
 
-- Create a new project on tilemill and paste the next code on tilemill:
+Create a new project on tilemill and paste the next code on Tilemill:
 
 ```css
 Map { background-color:#000; }
@@ -74,9 +76,10 @@ Map { background-color:#000; }
 }
 
 ```
-**Change you user name and your prefer color**
+**Change you user name and your favorite color**
 
-- Export imagen:
+Export imagen:
+
 ![](https://cloud.githubusercontent.com/assets/1152236/5613122/4e54097c-94ad-11e4-8b24-73a259da6b71.png)
 
 
