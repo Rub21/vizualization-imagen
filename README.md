@@ -94,6 +94,8 @@ The file(ayacucho.jpeg) was saved in: `/path/to/MapBox/export/`
 
 ## Create imagen using Mapbox Studio
 
+**Todo**
+
 # 5. Editing imagen
 
 Open your imagen(ayacucho.jpeg) with any Editor of imagen, inthis case I going to use [GIMP](http://www.gimp.org/)
