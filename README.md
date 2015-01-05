@@ -78,12 +78,24 @@ Map { background-color:#000; }
 ```
 **Change you user name and your prefer color**
 
-
-https://github.com/Rub21/vizualization-imagen/blob/master/styles.css
-
-![screenshot from 2014-11-25 11 03 29](https://cloud.githubusercontent.com/assets/1152236/5186183/b6822596-7492-11e4-8147-9a34bc5b5f68.png)
+- Export imagen:
+![](https://cloud.githubusercontent.com/assets/1152236/5613122/4e54097c-94ad-11e4-8b24-73a259da6b71.png)
 
 
-- Export as imagen and edited with an image editor. like:
+The size of imagen will be, **width = 1200px**:
+![screenshot from 2015-01-05 07 34 21](https://cloud.githubusercontent.com/assets/1152236/5613145/96500c26-94ad-11e4-9147-5ff5a6cf7ac7.png)
 
-![visualizacion_c7f118](https://cloud.githubusercontent.com/assets/5991158/4525793/41fc1828-4d58-11e4-818d-dd790e83914e.png)
+The file is save in: `/path/to/MapBox/export/`
+
+
+# 4. Editing imagen
+
+Open your imagen(ayacucho.jpeg) with any Editor of imagen, inthis case I going to use [GIMP](http://www.gimp.org/)
+
+![ediyes](https://cloud.githubusercontent.com/assets/1152236/5613329/b6935c88-94b0-11e4-8cb5-abea20cee446.jpeg)
+
+- **Title size(Ayacucho, Perú): 70pt**
+- **Date size (September 01st to September 15th, 2014): 25pt**
+- **User size (ediyes): 25pt**
+- **Version = 1 size (Version = 1): 20pt**
+- **Version > 1 size (Version > 1): 20pt**
