@@ -82,7 +82,8 @@ Map { background-color:#000; }
 ![](https://cloud.githubusercontent.com/assets/1152236/5613122/4e54097c-94ad-11e4-8b24-73a259da6b71.png)
 
 
-The size of imagen will be, **width = 1200px**:
+The size of imagen will be, **width = 1200px**
+
 ![screenshot from 2015-01-05 07 34 21](https://cloud.githubusercontent.com/assets/1152236/5613145/96500c26-94ad-11e4-9147-5ff5a6cf7ac7.png)
 
 The file is save in: `/path/to/MapBox/export/`
