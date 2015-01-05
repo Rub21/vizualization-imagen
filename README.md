@@ -13,12 +13,13 @@ Create progress visualization
 
 - Download a place where you've worked and since the exact date
 
-Example: User [ediyes](http://www.openstreetmap.org/user/ediyes) have worked at in Ayacucho since 01/09/2014 00:00:00, 
-for dowloand the data you have to set on [app](http://rub21.github.io/download-osm-data/#13.00/-13.1660/-74.2153)
+**Example:**
 
-**Focus in Ayacucho**
+User [ediyes](http://www.openstreetmap.org/user/ediyes) have worked at in [Ayacucho](http://www.openstreetmap.org/#map=13/-13.1677/-74.2040) since 01/09/2014 00:00:00
 
-[Focus in Ayacucho](https://cloud.githubusercontent.com/assets/1152236/5608852/3521968a-945e-11e4-932e-19ca396adef6.png)
+http://rub21.github.io/download-osm-data/#13.00/-13.1660/-74.2153
+
+![Focus in Ayacucho](https://cloud.githubusercontent.com/assets/1152236/5608852/3521968a-945e-11e4-932e-19ca396adef6.png)
 
 **Setting the user, time and types of data**
 
