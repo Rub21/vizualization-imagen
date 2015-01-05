@@ -1,8 +1,5 @@
-vizualization-imagen
-====================
-Always that you want to see how was your progress and you want to share as image [like this]()
-
-Steps:
+Create progress visualization
+=============================
 
 # 1. Clone repository
 	
