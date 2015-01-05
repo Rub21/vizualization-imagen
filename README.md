@@ -1,32 +1,83 @@
 vizualization-imagen
 ====================
-Allow make a  daily progress visualization
+Always that you want to see how was your progress and you want to share as image [like this]()
 
 Steps:
 
-# 1. Download Data
+# 1. Clone repository
+	
+	`$ git clone https://github.com/Rub21/vizualization-imagen.git`
+	
 
-- Active JOSM as remote mode
+# 2. Download Data
 
-![screenshot from 2014-11-25 10 22 03](https://cloud.githubusercontent.com/assets/1152236/5185379/138afea8-748d-11e4-801a-19d7dbc2b99e.png)
-
-
-- Download the place where you worked. and since the exact date until today
+- Firstly you have to active JOSM as [remote mode](https://cloud.githubusercontent.com/assets/1152236/5185379/138afea8-748d-11e4-801a-19d7dbc2b99e.png)
 
 
-![screenshot from 2014-11-25 10 19 53](https://cloud.githubusercontent.com/assets/1152236/5185328/a2dd6b1e-748c-11e4-9ae9-efb4625ab0ad.png)
+- Download a place where you've worked and since the exact date
 
-Save data as file.osm on same directory where the files [converts-way.py](https://github.com/Rub21/vizualization-imagen/blob/master/converts-way.py) are . 
+Example: User [ediyes](http://www.openstreetmap.org/user/ediyes) have worked at in Ayacucho since 01/09/2014 00:00:00, 
+for dowloand the data you have to set on [app](http://rub21.github.io/download-osm-data/#13.00/-13.1660/-74.2153)
 
-# 2. Process Data
+**Focus in Ayacucho**
 
-Run the nest line: 
+[Focus in Ayacucho](https://cloud.githubusercontent.com/assets/1152236/5608852/3521968a-945e-11e4-932e-19ca396adef6.png)
 
-`python converts-way.py file.osm file.geojson`
+**Setting the user, time and types of data**
 
-# 3. Make imgen on Tilemill
+![Setting the user, time and types of data](https://cloud.githubusercontent.com/assets/1152236/5608908/81cd9bae-945f-11e4-848a-bae1161f4000.png)
 
-- Make a new project and copy and paste the code on Tilemill
+
+Save data as ayacucho.osm on directory **vizualization-imagen**
+
+
+# 3. Process Data
+
+If you use Windows as SO. you have to configure context environment for python. on Linux it come for default.
+open the terminal and go to **vizualization-imagen** directory and execute:
+
+`$ cd vizualization-imagen`
+
+`$ python converts-way.py ayacucho.osm ayacucho.geojson`
+
+ At last you are going to have onw file called ayacucho.geojson **vizualization-imagen** directory
+
+# 4. Project on Tilemill
+
+- Create a new project on tilemill and paste the next code on tilemill:
+
+```css
+Map { background-color:#000; }
+#countries {
+	line-color:#555;
+	line-join:round;
+	line-width:0.5;
+}
+@grey: #2d2c2c;
+@blue : #0171C5;
+@magenta: #ff0094;
+@green: #0F0;
+@red: #DA6068;
+@morado:#9900FF;
+@yellow: #FF0;
+@aqua:#00FFFF;
+@fuxia:#FF00FF;
+
+
+#osm{
+	line-color:@grey;
+}
+#osm[user='ediyes']{
+    line-width:0.8;
+    [version='1']{
+      line-color:@yellow;
+    }
+	line-color:@yellow*0.4;
+}
+
+```
+**Change you user name and your prefer color**
+
 
 https://github.com/Rub21/vizualization-imagen/blob/master/styles.css
 
