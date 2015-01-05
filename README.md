@@ -103,4 +103,5 @@ Open your imagen(ayacucho.jpeg) with any Editor of imagen, inthis case I going t
 
 If you worked just one day in a your visualization should be look like this:
 
-![](https://cloud.githubusercontent.com/assets/1152236/3346517/55119694-f8c7-11e3-8d34-e777e9ef8691.jpeg)
+
+![55119694-f8c7-11e3-8d34-e777e9ef8691](https://cloud.githubusercontent.com/assets/1152236/5613468/bfb7cee6-94b2-11e4-91a3-9bfed4ead10f.jpeg)
