@@ -104,7 +104,7 @@ Open your imagen(ayacucho.jpeg) with any Editor of imagen, inthis case I going t
 
 - Title size(**Ayacucho, Perú**): 70pt
 - Date size (**September 01st to September 15th, 2014**): 25pt
-- User size (**ediyes**): 25pt**
+- User size (**ediyes**): 50pt
 - Version = 1 size (**Version = 1**): 20pt
 - Version > 1 size (**Version > 1**): 20pt
 
